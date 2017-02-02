@@ -1,0 +1,84 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: cursive;
+	background-color:#B2FBFC;
+}
+h1 {
+	color: darkblue;
+	text-align: center;
+	font-size: 31.5px;
+}
+p {
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 30px;
+	width: 90%;
+	text-align: justify;
+	font-size: 18px;
+}
+.activities {
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+	width: 150px;
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 22.5px;
+	float: right;
+}
+.row {
+	width: 100%;
+}
+#movies {
+	background-color: #7F4A0A;
+	color: white;
+}
+#b-games {
+	background-color: maroon;
+	color: white;
+}
+#bowling {
+	background-color: #107F0A;
+	color: white;
+}
+@media (min-width: 992px){
+	.col-lg-4 {
+		float: left;
+		width: 32.33%;
+		margin-right: 3.5px;
+		margin-left: 3.5px;
+		background-color: #96E2E3;
+		border: 1px solid black;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-md-6 {
+		float: left;
+		width: 49%;
+		margin-right: 3.5px;
+		margin-left: 3.5px;
+		margin-bottom: 7px;
+		background-color: #96E2E3;
+		border: 1px solid black;
+	}
+	.col-md-12 {
+		width: 99%;
+		float: left;
+		margin-top: auto;
+		background-color: #96E2E3;
+		border: 1px solid black;
+		margin-right: 3.5px;
+		margin-left: 3.5px;
+	}
+}
+@media (max-width: 767px){
+	.col-sm-12 {
+		background-color: #96E2E3;
+		border: 1px solid black;
+		margin-right: 3.5px;
+		margin-left: 3.5px;
+		margin-bottom: 7px;
+	}
+}
